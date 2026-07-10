@@ -11,14 +11,13 @@ export default class SimpleHomepage extends Plugin {
     await this.loadSettings();
     this.addSettingTab(new SimpleHomepageSettingTab(this.app, this));
 
+    // Command: Simple Homepage: Open Homepage
     this.addCommand({
       id: "open-homepage",
       name: "Open homepage",
-      callback: () => this.openHomepage(),
+      callback: () => openHomepage(this.app, this.settings.path),
     });
   }
-
-	async onunload() {}
 
 	async loadSettings() {
 		this.settings = Object.assign(
@@ -31,11 +30,4 @@ export default class SimpleHomepage extends Plugin {
 	async saveSettings() {
 		await this.saveData(this.settings);
 	}
-
-  async openHomepage(): Promise<void> {
-    await this.app.workspace.openLinkText(
-      this.settings.path,
-      ""
-    );
-  }
 }
