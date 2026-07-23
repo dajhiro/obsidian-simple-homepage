@@ -1,7 +1,7 @@
 한국어 | [English](https://github.com/dajhiro/obsidian-simple-homepage/blob/master/README.md)
 
 # Simple Homepage
-웹 브라우저처럼 동작하는 간단한 홈페이지 플러그인.
+웹 브라우저와 똑같이 동작하는 홈페이지 플러그인.
 
 ## 동기 (Motivation)
 저는 인덱스 노트를 홈페이지로 사용합니다. 이 홈페이지 기능은 단축키와 함께, 웹 브라우저와 동일한 작동 방식으로 동작하기를 원했습니다. 새 탭과 홈페이지는 별개의 기능입니다.

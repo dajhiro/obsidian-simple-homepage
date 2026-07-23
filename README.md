@@ -2,7 +2,7 @@
 
 # Simple Homepage
 
-A simple homepage plugin that behaves like a web browser.
+A homepage plugin that behaves just like a web browser.
 
 ## Motivation
 

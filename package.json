@@ -1,7 +1,7 @@
 {
 	"name": "simple-homepage",
-	"version": "0.1.0",
-	"description": "Set a note as your homepage and open it automatically on startup or with a command.",
+	"version": "0.1.1",
+	"description": "A homepage plugin that behaves just like a web browser.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {
